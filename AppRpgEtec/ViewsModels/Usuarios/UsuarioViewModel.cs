@@ -6,6 +6,7 @@ using System.Text;
 using System.Windows.Input;
 using AppRpgEtec.Models;
 using AppRpgEtec.Views.Usuarios;
+using AppRpgEtec.Views.Personagens;
 
 namespace AppRpgEtec.ViewsModels.Usuarios
 {
@@ -77,7 +78,7 @@ namespace AppRpgEtec.ViewsModels.Usuarios
                     await Application.Current.MainPage
                         .DisplayAlert("Informação", mensagem, "Ok");
 
-                    Application.Current.MainPage = new MainPage();
+                    Application.Current.MainPage = new ListagemView();
                 }
                 else
                 {
