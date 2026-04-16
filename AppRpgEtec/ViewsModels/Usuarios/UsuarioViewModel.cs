@@ -27,7 +27,6 @@ namespace AppRpgEtec.ViewsModels.Usuarios
                 AutenticarCommand = new Command(async () => await AutenticarUsuario());
                 RegistrarCommand = new Command(async () => await RegistrarUsuario());
                 DirecionarCadastroCommand = new Command(async () => await DirecionarParaCadastro());
-
         }
 
         #region AtributosPropriedades
@@ -78,7 +77,7 @@ namespace AppRpgEtec.ViewsModels.Usuarios
                     await Application.Current.MainPage
                         .DisplayAlert("Informação", mensagem, "Ok");
 
-                    Application.Current.MainPage = new ListagemView();
+                    Application.Current.MainPage = new Views.Armas.ListagemView();
                 }
                 else
                 {

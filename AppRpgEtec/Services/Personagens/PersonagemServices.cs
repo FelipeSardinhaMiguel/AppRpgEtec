@@ -9,7 +9,7 @@ namespace AppRpgEtec.Services.Personagens
     public class PersonagemServices : Request
     {
         private readonly Request _request;
-        private const string apiUrlBase = "";
+        private const string apiUrlBase = "http://luizsilva12.somee.com/RpgApi/Personagens";
 
         private string _token;
         public PersonagemServices(string token)
@@ -26,7 +26,7 @@ namespace AppRpgEtec.Services.Personagens
         public async Task<ObservableCollection<Personagem>> GetPersonagensAsync()
         {
             string urlComplementar = string.Format("{0}", "/GetAll");
-            ObservableCollection<Models.Personagem> listaPersonagens = await
+            ObservableCollection<Personagem> listaPersonagens = await
             _request.GetAsync<ObservableCollection<Models.Personagem>>(apiUrlBase + urlComplementar,
             _token);
             return listaPersonagens;
