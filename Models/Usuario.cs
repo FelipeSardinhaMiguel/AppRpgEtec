@@ -6,6 +6,7 @@ namespace AppRpgEtec.Models
 {
     public class Usuario
     {
+        //testando um commit
         public int Id { get; set; } // Atalho PROP + TAB
         public string Username { get; set; } = string.Empty;
         public string PasswordString { get; set; } = string.Empty;

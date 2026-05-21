@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="AppRpgEtec.csproj">
+    <Deploy Solution="Debug|*" />
+  </Project>
+</Solution>

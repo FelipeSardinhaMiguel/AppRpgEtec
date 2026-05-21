@@ -96,4 +96,8 @@
 	  </MauiXaml>
 	</ItemGroup>
 
+	<ItemGroup>
+	  <Folder Include="AtividadeGeolocalizacao\" />
+	</ItemGroup>
+
 </Project>
