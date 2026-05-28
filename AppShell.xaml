@@ -42,6 +42,9 @@
     <ShellContent Title="Disputas" Icon="maciota.jpg"
               ContentTemplate="{DataTemplate viewsDisputas:ListagemDisputasView}"/>
     <Tab Title="Info" Route="info" Icon="placamae.jpg">
+
+            <ShellContent Title="Usuario" Route="info" Icon="info.svg" ContentTemplate="{DataTemplate viewsUsuarios:ImagemUsuarioView}" />
+
             <ShellContent Title="Sobre" Route="sobre" ContentTemplate="{DataTemplate local:AboutView}"/>
 
             <ShellContent Title="Descrição" Route="desc" ContentTemplate="{DataTemplate local:DescriptionView}"/>

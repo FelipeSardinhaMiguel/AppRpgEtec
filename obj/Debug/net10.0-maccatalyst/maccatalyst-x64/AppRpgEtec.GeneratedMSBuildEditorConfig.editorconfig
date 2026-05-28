@@ -18,6 +18,7 @@ build_property.ProjectTypeGuids =
 build_property.InvariantGlobalization = false
 build_property.PlatformNeutralAssembly = 
 build_property.EnforceExtendedAnalyzerRules = 
+build_property.EntryPointFilePath = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = AppRpgEtec
 build_property.ProjectDir = D:\Gustavo-3DS\PAM II\RpgEtec\
@@ -141,6 +142,16 @@ build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = AppRpgEtec.Views.Usuarios.CadastroView.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\Usuarios\CadastroView.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\Usuarios\CadastroView.xaml
+build_metadata.AdditionalFiles.Inflator = Runtime
+build_metadata.AdditionalFiles.NoWarn = 
+build_metadata.AdditionalFiles.EnableDiagnostics = 
+build_metadata.AdditionalFiles.LineInfo = 
+
+[D:/Gustavo-3DS/PAM II/RpgEtec/Views/Usuarios/ImagemUsuarioView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AppRpgEtec.Views.Usuarios.ImagemUsuarioView.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Usuarios\ImagemUsuarioView.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Usuarios\ImagemUsuarioView.xaml
 build_metadata.AdditionalFiles.Inflator = Runtime
 build_metadata.AdditionalFiles.NoWarn = 
 build_metadata.AdditionalFiles.EnableDiagnostics = 
