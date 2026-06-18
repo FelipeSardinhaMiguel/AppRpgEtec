@@ -63,6 +63,7 @@ public class CadastroPersonagemViewModel : BaseViewModel
 		set {
 			pontosVida = value;
 			OnPropertyChanged();
+			OnPropertyChanged(nameof(CadastroHabilitado));
 		}
 	}
 
@@ -118,7 +119,15 @@ public class CadastroPersonagemViewModel : BaseViewModel
 		}
 	}
 
-	private ObservableCollection<TipoClasse> listaTiposClasse;
+    public bool CadastroHabilitado
+    {
+        get
+        {
+            return (PontosVida > 0);
+        }
+    }
+
+    private ObservableCollection<TipoClasse> listaTiposClasse;
 
 	public ObservableCollection<TipoClasse> ListaTiposClasse
 	{
@@ -132,6 +141,8 @@ public class CadastroPersonagemViewModel : BaseViewModel
 			}
 		}
 	}
+
+	
 
 	public async Task ObterClasse()
 	{

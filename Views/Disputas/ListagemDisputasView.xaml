@@ -8,6 +8,9 @@
 TextColor="Black" SearchCommand="{Binding PesquisarPersonagensCommand}"
 SearchCommandParameter="{Binding Source={x:Reference searchBar}, Path=Text}"/>
         <Entry Placeholder="Digite o nome do Personagem..." Text="{Binding TextoBuscaDigitado}"></Entry>
+        <Button Text="Zerar Ranking Geral" Command="{Binding ZerarRankingRestaurarVidasGeralCommand}" 
+                FontAttributes="Bold" VerticalOptions="FillAndExpand"/>
+
         <ListView x:Name="lvPersonagens" HasUnevenRows="True" ItemsSource="{Binding
 PersonagensEncontrados}"
 SelectedItem="{Binding PersonagemSelecionado}"
@@ -36,31 +39,35 @@ Margin="10, 5, 0, 0">
                 <RowDefinition Height="Auto"/>
                 <RowDefinition Height="Auto"/>
                 <RowDefinition Height="Auto"/>
-
-                <Button Text="Disputar com Arma" FontAttributes="Bold"
+            </Grid.RowDefinitions>
+            
+            <Button Text="Disputar com Arma" FontAttributes="Bold"
                         Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2"
                         VerticalOptions="FillAndExpand" Command="{Binding DisputaComArmaCommand}"/>
 
-                <Picker Title="---Selecione a habilidade do primeiro combatente---"
-Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="2"
-ItemsSource="{Binding Habilidades}"
-ItemDisplayBinding="{Binding HabilidadeNome}"
-SelectedItem="{Binding HabilidadeSelecionada}" />
-                <Button Text="Disputas com Habilidades" FontAttributes="Bold"
-Grid.Row="4" Grid.Column="0" Grid.ColumnSpan="2"
-VerticalOptions="FillAndExpand" Command="{Binding DisputaComHabilidadeCommand}"/>
-                <Button Text="Disputa Geral" FontAttributes="Bold"
-Grid.Row="5" Grid.Column="0" Grid.ColumnSpan="2"
-VerticalOptions="FillAndExpand" Command="{Binding DisputaGeralCommand}"/>
+            <Picker Title="---Selecione a habilidade do primeiro combatente---"
+                Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="2"
+                ItemsSource="{Binding Habilidades}"
+                ItemDisplayBinding="{Binding HabilidadeNome}"
+                SelectedItem="{Binding HabilidadeSelecionada}" />
+
+            <Button Text="Disputas com Habilidades" FontAttributes="Bold"
+                Grid.Row="4" Grid.Column="0" Grid.ColumnSpan="2"
+                VerticalOptions="FillAndExpand" Command="{Binding DisputaComHabilidadeCommand}"/>
+
+            <Button Text="Disputa Geral" FontAttributes="Bold"
+                Grid.Row="5" Grid.Column="0" Grid.ColumnSpan="2"
+                VerticalOptions="FillAndExpand" Command="{Binding DisputaGeralCommand}"/>   
 
 
-            </Grid.RowDefinitions>
             <Label Text="Atacante: " Grid.Column="0" Grid.Row="0" FontAttributes="Bold" />
             <Label Text="{Binding DescricaoPersonagemAtacante}" Grid.Column="1" Grid.Row="0"
 TextColor="Blue" />
             <Label Text="Oponente: " Grid.Column="0" Grid.Row="1" FontAttributes="Bold" />
             <Label Text="{Binding DescricaoPersonagemOponente}" Grid.Column="1" Grid.Row="1"
 TextColor="Blue" />
+
+            
         </Grid>
     </VerticalStackLayout>
 </ContentPage>

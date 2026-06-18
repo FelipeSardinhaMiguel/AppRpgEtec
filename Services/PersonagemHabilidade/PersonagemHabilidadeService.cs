@@ -5,7 +5,7 @@ using System.Collections.ObjectModel;
 using System.Text;
 using AppRpgEtec.Models;
 
-namespace AppRpgEtec.Services.PersonagemHabilidade
+namespace AppRpgEtec.Services.PersonagemHabilidadeService
 {
     public class PersonagemHabilidadeService : Request
     {

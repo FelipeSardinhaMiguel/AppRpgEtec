@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "grwwdovNQ3o=",
+  "dgSpecHash": "CcyjEE9iajA=",
   "success": true,
   "projectFilePath": "D:\\Gustavo-3DS\\PAM II\\RpgEtec\\AppRpgEtec.csproj",
   "expectedPackageFiles": [
@@ -34,7 +34,7 @@
     "D:\\NUGET_PACKAGES\\microsoft.maui.graphics.win2d.winui.desktop\\10.0.20\\microsoft.maui.graphics.win2d.winui.desktop.10.0.20.nupkg.sha512",
     "D:\\NUGET_PACKAGES\\microsoft.maui.maps\\10.0.60\\microsoft.maui.maps.10.0.60.nupkg.sha512",
     "D:\\NUGET_PACKAGES\\microsoft.maui.resizetizer\\10.0.20\\microsoft.maui.resizetizer.10.0.20.nupkg.sha512",
-    "D:\\NUGET_PACKAGES\\microsoft.net.illink.tasks\\10.0.8\\microsoft.net.illink.tasks.10.0.8.nupkg.sha512",
+    "D:\\NUGET_PACKAGES\\microsoft.net.illink.tasks\\10.0.9\\microsoft.net.illink.tasks.10.0.9.nupkg.sha512",
     "D:\\NUGET_PACKAGES\\microsoft.web.webview2\\1.0.3179.45\\microsoft.web.webview2.1.0.3179.45.nupkg.sha512",
     "D:\\NUGET_PACKAGES\\microsoft.windows.sdk.buildtools\\10.0.22621.756\\microsoft.windows.sdk.buildtools.10.0.22621.756.nupkg.sha512",
     "D:\\NUGET_PACKAGES\\microsoft.windowsappsdk\\1.7.250909003\\microsoft.windowsappsdk.1.7.250909003.nupkg.sha512",

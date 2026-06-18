@@ -1,6 +1,6 @@
 ﻿using AppRpgEtec.Models;
 using AppRpgEtec.Services.Disputas;
-using AppRpgEtec.Services.PersonagemHabilidade;
+using AppRpgEtec.Services.PersonagemHabilidadeService;
 using AppRpgEtec.Services.Personagens;
 using System;
 using System.Collections.Generic;
@@ -215,7 +215,7 @@ namespace AppRpgEtec.ViewModels.Disputas
             try
             {
                 ObservableCollection<Personagem> lista = await pService.GetPersonagensAsync();
-                DisputaPersonagens.ListaIdPersonagens = lista.Select(x => x.Id).ToList();
+                DisputaPersonagens.ListaIdPersonagem = lista.Select(x => x.Id).ToList();
 
                 DisputaPersonagens = await dService.PostDisputaGeralAsync(DisputaPersonagens);
 
