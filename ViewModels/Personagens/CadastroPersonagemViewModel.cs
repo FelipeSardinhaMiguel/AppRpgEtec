@@ -20,8 +20,8 @@ public class CadastroPersonagemViewModel : BaseViewModel
 		pService = new PersonagemService(token);
 		_ = ObterClasse();
 
-		SalvarCommand = new Command(async () => { await SalvarPersonagem(); });
-        CancelarCommand = new Command(async () => CancelarCadastro());
+		SalvarCommand = new Command(async () => { await SalvarPersonagem(); }, () => ValidarCampos());
+		CancelarCommand = new Command(async () => CancelarCadastro());
 	}
 
 	private async void CancelarCadastro()
@@ -42,7 +42,8 @@ public class CadastroPersonagemViewModel : BaseViewModel
 	public int Id
 	{
 		get => id;
-		set {
+		set
+		{
 			id = value;
 			OnPropertyChanged();
 		}
@@ -51,43 +52,52 @@ public class CadastroPersonagemViewModel : BaseViewModel
 	public string Nome
 	{
 		get => nome;
-		set {
+		set
+		{
 			nome = value;
 			OnPropertyChanged();
+			((Command)SalvarCommand).ChangeCanExecute();
 		}
 	}
 
 	public int PontosVida
 	{
 		get => pontosVida;
-		set {
+		set
+		{
 			pontosVida = value;
 			OnPropertyChanged();
 			OnPropertyChanged(nameof(CadastroHabilitado));
-		}
+            ((Command)SalvarCommand).ChangeCanExecute();
+        }
 	}
 
 	public int Forca
 	{
 		get => forca;
-		set {
+		set
+		{
 			forca = value;
 			OnPropertyChanged();
-		}
+            ((Command)SalvarCommand).ChangeCanExecute();
+        }
 	}
 
 	public int Defesa
 	{
 		get => defesa;
-		set {
+		set
+		{
 			defesa = value;
 			OnPropertyChanged();
-		}
+            ((Command)SalvarCommand).ChangeCanExecute();
+        }
 	}
 	public int Inteligencia
 	{
 		get => inteligencia;
-		set {
+		set
+		{
 			inteligencia = value;
 			OnPropertyChanged();
 		}
@@ -95,7 +105,8 @@ public class CadastroPersonagemViewModel : BaseViewModel
 	public int Disputas
 	{
 		get => disputas;
-		set {
+		set
+		{
 			disputas = value;
 			OnPropertyChanged();
 		}
@@ -104,7 +115,8 @@ public class CadastroPersonagemViewModel : BaseViewModel
 	public int Vitorias
 	{
 		get => vitorias;
-		set {
+		set
+		{
 			vitorias = value;
 			OnPropertyChanged();
 		}
@@ -113,21 +125,22 @@ public class CadastroPersonagemViewModel : BaseViewModel
 	public int Derrotas
 	{
 		get => derrotas;
-		set {
+		set
+		{
 			derrotas = value;
 			OnPropertyChanged();
 		}
 	}
 
-    public bool CadastroHabilitado
-    {
-        get
-        {
-            return (PontosVida > 0);
-        }
-    }
+	public bool CadastroHabilitado
+	{
+		get
+		{
+			return (PontosVida > 0);
+		}
+	}
 
-    private ObservableCollection<TipoClasse> listaTiposClasse;
+	private ObservableCollection<TipoClasse> listaTiposClasse;
 
 	public ObservableCollection<TipoClasse> ListaTiposClasse
 	{
@@ -142,7 +155,7 @@ public class CadastroPersonagemViewModel : BaseViewModel
 		}
 	}
 
-	
+
 
 	public async Task ObterClasse()
 	{
@@ -195,10 +208,10 @@ public class CadastroPersonagemViewModel : BaseViewModel
 			if (model.Id == 0)
 				await pService.PostPersonagemAsync(model);
 			else
-				await pService.PutPersonagemAsync (model);
+				await pService.PutPersonagemAsync(model);
 
-				await Application.Current.MainPage
-					.DisplayAlert("Mensagem", "Dados salvos com sucesso!", "Ok");
+			await Application.Current.MainPage
+				.DisplayAlert("Mensagem", "Dados salvos com sucesso!", "Ok");
 
 			await Shell.Current.GoToAsync(".."); //Remove a página atual da pilha de páginas
 		}
@@ -210,8 +223,8 @@ public class CadastroPersonagemViewModel : BaseViewModel
 	}
 
 
-    public async void CarregarPersonagem()
-    {
+	public async void CarregarPersonagem()
+	{
 		try
 		{
 			Personagem p = await pService.GetPersonagemAsync(int.Parse(personagemSelecionadoId));
@@ -229,12 +242,12 @@ public class CadastroPersonagemViewModel : BaseViewModel
 			TipoClasseSelecionado = this.ListaTiposClasse
 				.FirstOrDefault(tClasse => tClasse.Id == (int)p.Classe);
 		}
-        catch (Exception ex)
-        {
-            await Application.Current.MainPage
-                .DisplayAlert("Ops", ex.Message + "Detalhes: " + ex.InnerException, "Ok");
-        }
-    }
+		catch (Exception ex)
+		{
+			await Application.Current.MainPage
+				.DisplayAlert("Ops", ex.Message + "Detalhes: " + ex.InnerException, "Ok");
+		}
+	}
 
 	private string personagemSelecionadoId;
 
@@ -250,5 +263,10 @@ public class CadastroPersonagemViewModel : BaseViewModel
 		}
 	}
 
-
+	public bool ValidarCampos(){
+		return !string.IsNullOrEmpty(Nome)
+			&& CadastroHabilitado
+			&& Forca != 0
+			&& Defesa != 0;
+	}
 }

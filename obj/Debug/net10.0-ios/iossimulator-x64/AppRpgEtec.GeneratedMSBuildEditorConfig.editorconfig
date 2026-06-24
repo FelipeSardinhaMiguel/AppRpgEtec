@@ -18,16 +18,15 @@ build_property.ProjectTypeGuids =
 build_property.InvariantGlobalization = false
 build_property.PlatformNeutralAssembly = 
 build_property.EnforceExtendedAnalyzerRules = 
-build_property.EntryPointFilePath = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = AppRpgEtec
-build_property.ProjectDir = D:\Gustavo-3DS\PAM II\RpgEtec\
+build_property.ProjectDir = C:\Users\felip\OneDrive\Área de Trabalho\Curso\3º Módulo\PAM II\AppRpgEtec\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.EffectiveAnalysisLevelStyle = 10.0
 build_property.EnableCodeStyleSeverity = 
 
-[D:/Gustavo-3DS/PAM II/RpgEtec/AboutView.xaml]
+[C:/Users/felip/OneDrive/Área de Trabalho/Curso/3º Módulo/PAM II/AppRpgEtec/AboutView.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = AppRpgEtec.AboutView.xaml
 build_metadata.AdditionalFiles.TargetPath = AboutView.xaml
@@ -37,7 +36,7 @@ build_metadata.AdditionalFiles.NoWarn =
 build_metadata.AdditionalFiles.EnableDiagnostics = 
 build_metadata.AdditionalFiles.LineInfo = 
 
-[D:/Gustavo-3DS/PAM II/RpgEtec/App.xaml]
+[C:/Users/felip/OneDrive/Área de Trabalho/Curso/3º Módulo/PAM II/AppRpgEtec/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = AppRpgEtec.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
@@ -47,7 +46,7 @@ build_metadata.AdditionalFiles.NoWarn =
 build_metadata.AdditionalFiles.EnableDiagnostics = 
 build_metadata.AdditionalFiles.LineInfo = 
 
-[D:/Gustavo-3DS/PAM II/RpgEtec/AppShell.xaml]
+[C:/Users/felip/OneDrive/Área de Trabalho/Curso/3º Módulo/PAM II/AppRpgEtec/AppShell.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = AppRpgEtec.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
@@ -57,7 +56,7 @@ build_metadata.AdditionalFiles.NoWarn =
 build_metadata.AdditionalFiles.EnableDiagnostics = 
 build_metadata.AdditionalFiles.LineInfo = 
 
-[D:/Gustavo-3DS/PAM II/RpgEtec/DescriptionView.xaml]
+[C:/Users/felip/OneDrive/Área de Trabalho/Curso/3º Módulo/PAM II/AppRpgEtec/DescriptionView.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = AppRpgEtec.DescriptionView.xaml
 build_metadata.AdditionalFiles.TargetPath = DescriptionView.xaml
@@ -67,7 +66,7 @@ build_metadata.AdditionalFiles.NoWarn =
 build_metadata.AdditionalFiles.EnableDiagnostics = 
 build_metadata.AdditionalFiles.LineInfo = 
 
-[D:/Gustavo-3DS/PAM II/RpgEtec/MainPage.xaml]
+[C:/Users/felip/OneDrive/Área de Trabalho/Curso/3º Módulo/PAM II/AppRpgEtec/MainPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = AppRpgEtec.MainPage.xaml
 build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
@@ -77,7 +76,7 @@ build_metadata.AdditionalFiles.NoWarn =
 build_metadata.AdditionalFiles.EnableDiagnostics = 
 build_metadata.AdditionalFiles.LineInfo = 
 
-[D:/Gustavo-3DS/PAM II/RpgEtec/Resources/Styles/Colors.xaml]
+[C:/Users/felip/OneDrive/Área de Trabalho/Curso/3º Módulo/PAM II/AppRpgEtec/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = AppRpgEtec.Resources.Styles.Colors.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
@@ -87,7 +86,7 @@ build_metadata.AdditionalFiles.NoWarn =
 build_metadata.AdditionalFiles.EnableDiagnostics = 
 build_metadata.AdditionalFiles.LineInfo = 
 
-[D:/Gustavo-3DS/PAM II/RpgEtec/Resources/Styles/Styles.xaml]
+[C:/Users/felip/OneDrive/Área de Trabalho/Curso/3º Módulo/PAM II/AppRpgEtec/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = AppRpgEtec.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
@@ -97,7 +96,7 @@ build_metadata.AdditionalFiles.NoWarn =
 build_metadata.AdditionalFiles.EnableDiagnostics = 
 build_metadata.AdditionalFiles.LineInfo = 
 
-[D:/Gustavo-3DS/PAM II/RpgEtec/Views/Armas/ListagemView.xaml]
+[C:/Users/felip/OneDrive/Área de Trabalho/Curso/3º Módulo/PAM II/AppRpgEtec/Views/Armas/ListagemView.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = AppRpgEtec.Views.Armas.ListagemView.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\Armas\ListagemView.xaml
@@ -107,7 +106,7 @@ build_metadata.AdditionalFiles.NoWarn =
 build_metadata.AdditionalFiles.EnableDiagnostics = 
 build_metadata.AdditionalFiles.LineInfo = 
 
-[D:/Gustavo-3DS/PAM II/RpgEtec/Views/Disputas/ListagemDisputasView.xaml]
+[C:/Users/felip/OneDrive/Área de Trabalho/Curso/3º Módulo/PAM II/AppRpgEtec/Views/Disputas/ListagemDisputasView.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = AppRpgEtec.Views.Disputas.ListagemDisputasView.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\Disputas\ListagemDisputasView.xaml
@@ -117,7 +116,7 @@ build_metadata.AdditionalFiles.NoWarn =
 build_metadata.AdditionalFiles.EnableDiagnostics = 
 build_metadata.AdditionalFiles.LineInfo = 
 
-[D:/Gustavo-3DS/PAM II/RpgEtec/Views/Personagens/CadastroPersonagemView.xaml]
+[C:/Users/felip/OneDrive/Área de Trabalho/Curso/3º Módulo/PAM II/AppRpgEtec/Views/Personagens/CadastroPersonagemView.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = AppRpgEtec.Views.Personagens.CadastroPersonagemView.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\Personagens\CadastroPersonagemView.xaml
@@ -127,7 +126,7 @@ build_metadata.AdditionalFiles.NoWarn =
 build_metadata.AdditionalFiles.EnableDiagnostics = 
 build_metadata.AdditionalFiles.LineInfo = 
 
-[D:/Gustavo-3DS/PAM II/RpgEtec/Views/Personagens/ListagemView.xaml]
+[C:/Users/felip/OneDrive/Área de Trabalho/Curso/3º Módulo/PAM II/AppRpgEtec/Views/Personagens/ListagemView.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = AppRpgEtec.Views.Personagens.ListagemView.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\Personagens\ListagemView.xaml
@@ -137,7 +136,7 @@ build_metadata.AdditionalFiles.NoWarn =
 build_metadata.AdditionalFiles.EnableDiagnostics = 
 build_metadata.AdditionalFiles.LineInfo = 
 
-[D:/Gustavo-3DS/PAM II/RpgEtec/Views/Usuarios/CadastroView.xaml]
+[C:/Users/felip/OneDrive/Área de Trabalho/Curso/3º Módulo/PAM II/AppRpgEtec/Views/Usuarios/CadastroView.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = AppRpgEtec.Views.Usuarios.CadastroView.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\Usuarios\CadastroView.xaml
@@ -147,7 +146,7 @@ build_metadata.AdditionalFiles.NoWarn =
 build_metadata.AdditionalFiles.EnableDiagnostics = 
 build_metadata.AdditionalFiles.LineInfo = 
 
-[D:/Gustavo-3DS/PAM II/RpgEtec/Views/Usuarios/ImagemUsuarioView.xaml]
+[C:/Users/felip/OneDrive/Área de Trabalho/Curso/3º Módulo/PAM II/AppRpgEtec/Views/Usuarios/ImagemUsuarioView.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = AppRpgEtec.Views.Usuarios.ImagemUsuarioView.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\Usuarios\ImagemUsuarioView.xaml
@@ -157,7 +156,7 @@ build_metadata.AdditionalFiles.NoWarn =
 build_metadata.AdditionalFiles.EnableDiagnostics = 
 build_metadata.AdditionalFiles.LineInfo = 
 
-[D:/Gustavo-3DS/PAM II/RpgEtec/Views/Usuarios/ListagemUsuariosView.xaml]
+[C:/Users/felip/OneDrive/Área de Trabalho/Curso/3º Módulo/PAM II/AppRpgEtec/Views/Usuarios/ListagemUsuariosView.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = AppRpgEtec.Views.Usuarios.ListagemUsuariosView.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\Usuarios\ListagemUsuariosView.xaml
@@ -167,7 +166,7 @@ build_metadata.AdditionalFiles.NoWarn =
 build_metadata.AdditionalFiles.EnableDiagnostics = 
 build_metadata.AdditionalFiles.LineInfo = 
 
-[D:/Gustavo-3DS/PAM II/RpgEtec/Views/Usuarios/LocalizacaoView.xaml]
+[C:/Users/felip/OneDrive/Área de Trabalho/Curso/3º Módulo/PAM II/AppRpgEtec/Views/Usuarios/LocalizacaoView.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = AppRpgEtec.Views.Usuarios.LocalizacaoView.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\Usuarios\LocalizacaoView.xaml
@@ -177,7 +176,7 @@ build_metadata.AdditionalFiles.NoWarn =
 build_metadata.AdditionalFiles.EnableDiagnostics = 
 build_metadata.AdditionalFiles.LineInfo = 
 
-[D:/Gustavo-3DS/PAM II/RpgEtec/Views/Usuarios/LoginView.xaml]
+[C:/Users/felip/OneDrive/Área de Trabalho/Curso/3º Módulo/PAM II/AppRpgEtec/Views/Usuarios/LoginView.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = AppRpgEtec.Views.Usuarios.LoginView.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\Usuarios\LoginView.xaml
